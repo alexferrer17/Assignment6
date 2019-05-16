@@ -1,0 +1,28 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[latin1]{inputenc}
+
+\title{Sorting Algorithms}
+\author{Alejandro Ferrer}
+\date{05/17/2019}
+
+\begin{document}
+\maketitle
+
+In this assignment I was able to test different types of sorting algorithms in order to analyze their performance. 
+In this case I used four different algorithms: Bubble Sort, Selection Sort, Insertion Sort and Quick Sort--
+
+\begin{itemize}
+  \item Bubble Sort consists in a simple algorithm that works by swapping elements if they are in the wrong order. 
+  \item Inserion Sort builds the final arrangement one element at a time. It is not very efficient in large lists.
+  
+  \item Selection Sort rearranges the array by finding the smallest value of the unsorted array and puts it on a subarray of sorted elements. It repeats this process until the sorted list is completed.
+  \item Quick Sort is a Divide and Conquer algorithm. It finds a pivot point and then it partitions the array from the pivot point into two parts.
+
+\end{itemize}
+
+Throughout this assignment I implemented all of these sorting algorithms using a data sample with 10000 different numbers. The results indicate that Bubble sort is the slowest one in terms of run time but it has a very simple implementation. Selection sorting and Insertion Sorting were roughly the same in amount of time to sort. Finally, Quick sort was the fastest of all four algorithms but I had to use one more method to implement it.
+
+\end{document}
